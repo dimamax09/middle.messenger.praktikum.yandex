@@ -1,3 +1,4 @@
+/*
 import Handlebars from 'handlebars';
 import {InputField} from "./components/input";
 import {Button} from "./components/button";
@@ -13,3 +14,6 @@ Handlebars.registerPartial('Title', Title);
 
 const template = Handlebars.compile(RegistrationPage);
 document.body.innerHTML = template({});
+*/
+
+console.log(777)

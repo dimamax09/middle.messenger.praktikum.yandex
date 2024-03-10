@@ -1,12 +1,21 @@
 //language=hbs
+import './../style.scss';
+
 export const LoginPage = `
-<form class="login-page">
-    <div class="login-page__content">
-        {{> InputField placeholder="Логин" name="login" type="text" }}
-        {{> InputField placeholder="Пароль" name="password" type="password" }}
+    <div class="auth-block">
+        <form class="auth-form">
+            <div class="auth-form__title">
+                {{> Title title="Вход"}}
+            </div>
+            
+            <div class="auth-form__content">
+                {{> InputField placeholder="Логин" name="login" type="text" }}
+                {{> InputField placeholder="Пароль" name="password" type="password" }}
+            </div>
+            <div class="auth-form__footer">
+                {{> Button btnText="Авторизоваться" }}
+                {{> Link text="Нет аккаунта?" }}
+            </div>
+        </form>
     </div>
-    <div class="login-page__footer">
-        {{> Button btnText="Авторизоваться" }}
-    </div>
-</form>
 `

@@ -7,7 +7,7 @@ import {Title} from "./components/title";
 //import {RegistrationPage} from "./pages/autorization/registration";
 //import {ErrorPage} from "./pages/errors/errorPage.ts";
 import {ProfileViewPage} from "./pages/profile/view";
-import {ProfileEditPage} from "./pages/profile/edit";
+//import {ProfileEditPage} from "./pages/profile/edit";
 import {Avatar} from "./components/avatar";
 import {ProfileInfoItem} from "./components/profile-info-item";
 import {ProfileEditItem} from "./components/profile-edit-item";

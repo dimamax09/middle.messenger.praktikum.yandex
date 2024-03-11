@@ -2,7 +2,7 @@
 import './style.scss';
 
 export const Link = `
-<a class="link" href="{{link}}">
+<a class="link {{color}}" href="{{link}}">
     {{text}}
 </a>
 `

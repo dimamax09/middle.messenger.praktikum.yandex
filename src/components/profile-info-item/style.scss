@@ -1,0 +1,15 @@
+.profile-info-item {
+  display: flex;
+  padding: 8px 0px;
+  border-bottom: solid 1px #EAEAEA;
+
+  .profile-info-item__title {
+    margin-right: auto;
+    color: #1E1E1E;
+  }
+
+  .profile-info-item__value {
+    margin-left: auto;
+    color: #999999;
+  }
+}

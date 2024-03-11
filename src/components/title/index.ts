@@ -1,3 +1,4 @@
+//language=hbs
 import './style.scss';
 
 export const Title = `

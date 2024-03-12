@@ -2,7 +2,7 @@
 import './../style.scss';
 
 export const ProfileViewPage = `
-    <div class="btn-back"></div>
+    <div class="btn-back" page="chats"></div>
     <div class="profile-container">
         {{> Avatar }}
         {{> Title title="Дмитрий"}}
@@ -15,9 +15,9 @@ export const ProfileViewPage = `
             {{> ProfileInfoItem title="Телефон" value="+7 (909) 967 30 30"}}
         </div>
         <div class="profile-actions links">
-            {{> Link text="Изменить данные"}}
-            {{> Link text="Изменить пароль"}}
-            {{> Link text="Выйти" color="red"}}
+            {{> Link text="Изменить данные" linkToPage="profileEditInfo"}}
+            {{> Link text="Изменить пароль" linkToPage="profileEditPassword"}}
+            {{> Link text="Выйти" color="red" linkToPage="login"}}
         </div>
     </div>
 `

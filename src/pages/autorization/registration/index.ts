@@ -18,8 +18,8 @@ export const RegistrationPage = `
                 {{> InputField placeholder="Пароль (еще раз)" name="password-repeat" type="text" }}
             </div>
             <div class="auth-form__footer">
-                {{> Button btnText="Зарегистрироваться" }}
-                {{> Link text="Войти" }}
+                {{> Button btnText="Зарегистрироваться" linkToPage="chats"}}
+                {{> Link text="Войти" linkToPage="login"}}
             </div>
         </form>
     </div>

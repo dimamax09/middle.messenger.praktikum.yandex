@@ -13,8 +13,8 @@ export const LoginPage = `
                 {{> InputField placeholder="Пароль" name="password" type="password" }}
             </div>
             <div class="auth-form__footer">
-                {{> Button btnText="Авторизоваться" }}
-                {{> Link text="Нет аккаунта?" }}
+                {{> Button btnText="Авторизоваться" linkToPage="chats"}}
+                {{> Link text="Нет аккаунта?" linkToPage="registration"}}
             </div>
         </form>
     </div>

@@ -7,7 +7,7 @@ export const ProfileEditItem = `
         {{title}}
     </div>
     <div class="profile-edit-item__value">
-        {{> InputField value=value type=inputType}}
+        {{> InputField value=value name=inputName type=inputType}}
     </div>
 </div>
 `

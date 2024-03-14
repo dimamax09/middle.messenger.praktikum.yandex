@@ -2,13 +2,17 @@
 import './../style.scss';
 
 export const LoginPage = `
-    <div>{{> Link text="страница регистрации" linkToPage="registration"}}</div>
-    <div>{{> Link text="страница чатов" linkToPage="chats"}}</div>
-    <div>{{> Link text="страница профиля" linkToPage="profileView"}}</div>
-    <div>{{> Link text="страница редактирования данных профиля" linkToPage="profileEditInfo"}}</div>
-    <div>{{> Link text="страница редактирования пароля" linkToPage="profileEditPassword"}}</div>
-    <div>{{> Link text="страница ошибки" linkToPage="error"}}</div>
-
+    <nav>
+        <ul>
+            <li>{{> Link text="страница регистрации" linkToPage="registration"}}</li>
+            <li>{{> Link text="страница чатов" linkToPage="chats"}}</li>
+            <li>{{> Link text="страница профиля" linkToPage="profileView"}}</li>
+            <li>{{> Link text="страница редактирования данных профиля" linkToPage="profileEditInfo"}}</li>
+            <li>{{> Link text="страница редактирования пароля" linkToPage="profileEditPassword"}}</li>
+            <li>{{> Link text="страница ошибки" linkToPage="error"}}</li>
+        </ul>
+    </nav>
+    
     <div class="auth-block">
         <form class="auth-form">
             <div class="auth-form__title">

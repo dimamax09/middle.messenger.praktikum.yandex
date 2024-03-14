@@ -13,7 +13,7 @@ export const RegistrationPage = `
                 {{> InputField placeholder="Логин" name="login" type="text" }}
                 {{> InputField placeholder="Имя" name="first_name" type="text" }}
                 {{> InputField placeholder="Фамилия" name="second_name" type="text" }}
-                {{> InputField placeholder="Телефон" name="text" type="phone" }}
+                {{> InputField placeholder="Телефон" name="phone" type="text" }}
                 {{> InputField placeholder="Пароль" name="password" type="password" }}
                 {{> InputField placeholder="Пароль (еще раз)" name="password-repeat" type="text" }}
             </div>

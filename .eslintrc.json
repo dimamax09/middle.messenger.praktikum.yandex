@@ -1,9 +1,16 @@
 {
-  "extends": "airbnb",
+  "extends": [
+    "airbnb",
+    "prettier",
+    "eslint:recommended"
+  ],
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint"],
   "rules": {
     "max-len": [2, 100],
+    "quotes": ["error", "single"],
+    "no-undef": "off",
+    "class-methods-use-this": "off",
     "@typescript-eslint/no-unused-vars": 2
   }
 }
